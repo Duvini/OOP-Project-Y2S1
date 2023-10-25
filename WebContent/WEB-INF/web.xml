@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javee"
+		 xmlns:xsi="http://ww.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javee
+		 http://xmlns.jcp.org/xml/ns/javee/web-app_3_1.xsd"
+		 version="3.1">
+<servlet>
+		 	<servlet-name>productinsert</servlet-name>
+		 	<servlet-class>com.servlet.AddProductSrvlt</servlet-class>
+</servlet>
+<servlet-mapping>
+		 	<servlet-name>productinsert</servlet-name>
+		 	<url-pattern>/insert</url-pattern>
+</servlet-mapping>
+
+ 
+<servlet>
+		 	<servlet-name>RemoveProduct</servlet-name>
+		 	<servlet-class>com.servlet.RemoveProducts</servlet-class>
+		 </servlet>
+		 <servlet-mapping>
+		 	<servlet-name>RemoveProduct</servlet-name>
+		 	<url-pattern>/remove</url-pattern>
+		 </servlet-mapping>
+		 
+<servlet>
+		 	<servlet-name>ProductUpdateSrv</servlet-name>
+		 	<servlet-class>com.servlet.ProductUpdateSrv</servlet-class>
+		 </servlet>
+		 <servlet-mapping>
+		 	<servlet-name>ProductUpdateSrv</servlet-name>
+		 	<url-pattern>/update</url-pattern>
+		 </servlet-mapping>
+		 
+		 <servlet>
+		 	<servlet-name>CartProduct</servlet-name>
+		 	<servlet-class>com.servlet.AddToCart</servlet-class>
+		 </servlet>
+		 <servlet-mapping>
+		 	<servlet-name>CartProduct</servlet-name>
+		 	<url-pattern>/cart</url-pattern>
+		 </servlet-mapping>
+		
+</web-app>
