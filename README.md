@@ -35,11 +35,11 @@ Welcome to our Online E-shopping Store for Baby Care and Products! This project 
     <p align="center">
       <img src="https://github.com/Duvini/OOP-Project-Y2S1/assets/121706197/b3eb6a78-4a21-4872-a1e3-55c8b98cd5ee" width="600">
     </p>
-
-    <details>
-      <summary>Click to view more screenshots</summary>
   <div style="overflow-x:auto;">
     <div style="width: fit-content;">
+    <details>
+      <summary>Click to view more screenshots</summary>
+
       <p align="center">
         <img src="https://github.com/Duvini/OOP-Project-Y2S1/assets/121706197/23aad96b-b2b0-461b-a0c6-4069b2ca3050" width="600">
         <img src="https://github.com/Duvini/OOP-Project-Y2S1/assets/121706197/1f4be33a-6ef0-4c05-89f0-4928faa88802" width="600">
