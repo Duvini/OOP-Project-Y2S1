@@ -50,7 +50,7 @@ function toggleImages() {
   var hiddenImages = document.getElementById("hiddenImages");
   var viewMoreButton = document.getElementById("viewMoreButton");
   
-  if (hiddenImages.style.display === "none") {
+  if (hiddenImages.style.display === "none" || hiddenImages.style.display === "") {
     hiddenImages.style.display = "block";
     viewMoreButton.textContent = "View Less";
   } else {
