@@ -30,11 +30,11 @@ Welcome to our Online E-shopping Store for Baby Care and Products! This project 
 - MySQL
 
 ## Screenshots
-
-<details>
-    <p align="center">
+ <p align="center">
       <img src="https://github.com/Duvini/OOP-Project-Y2S1/assets/121706197/b3eb6a78-4a21-4872-a1e3-55c8b98cd5ee" width="600">
     </p>
+
+<details>
   <summary>Click to view more screenshots</summary>
   
   <p align="center">
