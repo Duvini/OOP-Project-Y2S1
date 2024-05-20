@@ -43,13 +43,12 @@ Welcome to our Online E-shopping Store for Baby Care and Products! This project 
   </p>
 </div>
 
-<button id="viewMoreButton" onclick="toggleImages()">View More</button>
+<p align="center"><button id="viewMoreButton" onclick="toggleImages()">View More</button></p>
 
 <script>
 function toggleImages() {
   var hiddenImages = document.getElementById("hiddenImages");
   var viewMoreButton = document.getElementById("viewMoreButton");
-  var mainImage = document.getElementById("mainImage");
   
   if (hiddenImages.style.display === "none") {
     hiddenImages.style.display = "block";
@@ -57,8 +56,6 @@ function toggleImages() {
   } else {
     hiddenImages.style.display = "none";
     viewMoreButton.textContent = "View More";
-    // Reset main image
-    mainImage.scrollIntoView({behavior: "smooth"});
   }
 }
 </script>
